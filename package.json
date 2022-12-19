@@ -1,0 +1,43 @@
+{
+  "name": "standardrobot-dev",
+  "version": "1.0.0",
+  "description": "Personal portfolio site",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astandardrobot/standardrobot-dev.git"
+  },
+  "author": "Jonah Perry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astandardrobot/standardrobot-dev/issues"
+  },
+  "homepage": "https://github.com/astandardrobot/standardrobot-dev#readme",
+  "dependencies": {
+    "@trpc/client": "^10.5.0",
+    "@trpc/next": "^10.5.0",
+    "@trpc/react-query": "^10.5.0",
+    "@trpc/server": "^10.5.0",
+    "framer-motion": "^7.10.2",
+    "next": "^13.0.7",
+    "next-auth": "^4.18.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "superjson": "^1.12.1",
+    "three": "^0.147.0",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "prisma": "^4.7.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4"
+  }
+}
