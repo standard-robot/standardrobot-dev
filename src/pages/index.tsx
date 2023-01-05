@@ -63,7 +63,7 @@ export default function Home() {
                     <div>
                         <h1 className={inter.className}><code className={styles.code}>$ whoami</code></h1>
                         <div className={styles.center}>
-                            <p className={inter.className}>Online, I go by the name standardrobot. I enjoy making electronic music, programming, and playing video games. <br />Profesionally, I&lsquo;m a cyber systems engineer.<br /></p>
+                            <p className={inter.className}>Online, I go by the name standardrobot. I enjoy making electronic music, programming, and playing video games. <br />Professionally, I&lsquo;m a cyber systems engineer.<br /></p>
                         </div>
                     </div>
 
