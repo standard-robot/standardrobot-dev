@@ -21,23 +21,6 @@ export default function Home() {
                         &nbsp;
                         <code className={styles.code}>ideally, evacuate - COMING 2023</code>
                     </p>
-                    <div>
-                        <a
-                            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            By{' '}
-                            <Image
-                                src="/vercel.svg"
-                                alt="Vercel Logo"
-                                className={styles.vercelLogo}
-                                width={100}
-                                height={24}
-                                priority
-                            />
-                        </a>
-                    </div>
                 </div>
 
                 <div className={styles.center}>
@@ -63,7 +46,7 @@ export default function Home() {
                     <div>
                         <h1 className={inter.className}><code className={styles.code}>$ whoami</code></h1>
                         <div className={styles.center}>
-                            <p className={inter.className}>Online, I go by the name standardrobot. I enjoy making electronic music, programming, and playing video games. <br />Professionally, I&lsquo;m a cyber systems engineer.<br /></p>
+                            <p className={inter.className}>Online, I go by the name standardrobot. I enjoy making electronic music, programming, and playing video games. <br />Professionally, I&lsquo;m a cyber systems engineer with a strong interest in offensive security.<br />This project came about because I bought this domain to secure the name. I'll be using the opportunity as a trial<br />by fire dive into web-dev.</p>
                         </div>
                     </div>
 
