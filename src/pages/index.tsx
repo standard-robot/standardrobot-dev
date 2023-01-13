@@ -69,7 +69,7 @@ export default function Home() {
                             LINKEDIN <span>-&gt;</span>
                         </h2>
                         <p className={inter.className}>
-                            Look at me.
+                            Look at me
                         </p>
                     </a>
 
@@ -83,7 +83,7 @@ export default function Home() {
                             MUSIC <span>-&gt;</span>
                         </h2>
                         <p className={inter.className}>
-                            Listen to stuff I made.
+                            Listen to stuff I made
                         </p>
                     </a>
 
@@ -94,10 +94,10 @@ export default function Home() {
                         rel="noopener noreferrer"
                     >
                         <h2 className={inter.className}>
-                            Dev <span>-&gt;</span>
+                            DEV <span>-&gt;</span>
                         </h2>
                         <p className={inter.className}>
-                            Download tools I designed/developed.
+                            Download tools I designed/developed
                         </p>
                     </a>
 
@@ -111,7 +111,7 @@ export default function Home() {
                             VSTs <span>-&gt;</span>
                         </h2>
                         <p className={inter.className}>
-                            Download DAW plugins I designed/developed.
+                            Download DAW plugins I designed/developed
                         </p>
                     </a>
 
