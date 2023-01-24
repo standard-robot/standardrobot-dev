@@ -53,7 +53,7 @@ export default function Home() {
                     <div>
                         <h1 className={inter.className}><code className={styles.code}>$ cat in_dev.txt</code></h1>
                         <div className={styles.center}>
-                            <p className={inter.className}>I will be building a more dynamic site, written with the T3 Stack with ThreeJS and Framer-Motion. <br />Employing typesafety and have agency throughout my DX, and I want to mess around with basic 3D graphic work.<br />I am also working on an EP, which I plan to release within the next few months.<br />Finally, I would like to create a VST before the summer, as well as some other smaller tools.</p>
+                            <p className={inter.className}>I will be building a more dynamic site, written with the T3 Stack with ThreeJS and Framer-Motion. <br />Employing typesafety and have agency throughout my DX, and I want to mess around with basic 3D graphic work.<br />I am also working on an EP, which I plan to release within the next few months.<br />Finally, I would like to create a VST before the summer, as well as some other smaller tools. <br /> At the moment, the links below point to relevant sites, and will be updated as the site evolves </p>
                         </div>
                     </div>
                 </div>
