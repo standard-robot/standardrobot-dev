@@ -60,7 +60,7 @@ export default function Home() {
 
                 <div className={styles.grid}>
                     <a
-                        href="https://linkedin.com/in/jonah-perry/"
+                        href="https://instagram.com/astandardrobot/"
                         className={styles.card}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -74,7 +74,7 @@ export default function Home() {
                     </a>
 
                     <a
-                        href="https://soundcloud.com/astandardrobot"
+                        href="https://soundcloud.com/standardrobot"
                         className={styles.card}
                         target="_blank"
                         rel="noopener noreferrer"
