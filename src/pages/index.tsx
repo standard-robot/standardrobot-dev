@@ -66,7 +66,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                     >
                         <h2 className={inter.className}>
-                            LINKEDIN <span>-&gt;</span>
+                            INSTAGRAM <span>-&gt;</span>
                         </h2>
                         <p className={inter.className}>
                             Look at me
