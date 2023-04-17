@@ -19,7 +19,7 @@ export default function Home() {
                 <div className={styles.description}>
                     <p>
                         &nbsp;
-                        <code className={styles.code}>ideally, evacuate - COMING 2023</code>
+                        <code className={styles.code}>EP - COMING 2023</code>
                     </p>
                 </div>
 
