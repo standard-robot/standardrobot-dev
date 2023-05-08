@@ -2,7 +2,7 @@ import React from 'react'
 import NextLink from 'next/link';
 import Image from 'next/image'
 import Link from 'next/link';
-import { inter } from '@/styles/fonts'
+import { rm } from '@/styles/fonts';
 
 export default function Home() {
     return (
@@ -14,28 +14,28 @@ export default function Home() {
                 </p>
             </div>
 
-            <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
+            <div className="bg-swamp-green-500">
                 <Image
                     className="relative filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);"
-                    src="/next.svg"
-                    alt="Next.js Logo"
-                    width={180}
-                    height={37}
+                    src="/robot.svg"
+                    alt="standardrobot logo"
+                    width={300}
+                    height={250}
                     priority
                 />
             </div>
-            <div className={inter.className}>
+            <div className={rm.className}>
                 <div>
-                    <h1 className={inter.className}><code className="font-mono font-bold">$ whoami</code></h1>
+                    <h1 className={rm.className}><code className="font-mono font-bold">$ whoami</code></h1>
                     <div >
-                        <p className={inter.className}>Online, I go by the name standardrobot. I enjoy making electronic music, programming, and playing video games. <br />Professionally, I&lsquo;m a cyber systems engineer with a strong interest in offensive security.<br />This project came about because I bought this domain to secure the name. I'll be using the opportunity as a trial<br />by fire dive into web-dev.</p>
+                        <p className={rm.className}>Online, I go by the name standardrobot. I enjoy making electronic music, programming, and playing video games. <br />Professionally, I&lsquo;m a cyber systems engineer with a strong interest in offensive security.<br />This project came about because I bought this domain to secure the name. I'll be using the opportunity as a trial<br />by fire dive into web-dev.</p>
                     </div>
                 </div>
 
                 <div>
-                    <h1 className={inter.className}><code className="font-mono font-bold">$ cat in_dev.txt</code></h1>
+                    <h1 className={rm.className}><code className="font-mono font-bold">$ cat in_dev.txt</code></h1>
                     <div >
-                        <p className={inter.className}>I will be building a more dynamic site, written with the T3 Stack with ThreeJS and Framer-Motion. <br />Employing typesafety and have agency throughout my DX, and I want to mess around with basic 3D graphic work.<br />I am also working on an EP, which I plan to release within the next few months.<br />Finally, I would like to create a VST before the summer, as well as some other smaller tools. <br /> At the moment, the links below point to relevant sites, and will be updated as the site evolves </p>
+                        <p className={rm.className}>I will be building a more dynamic site, written with the T3 Stack with ThreeJS and Framer-Motion. <br />Employing typesafety and have agency throughout my DX, and I want to mess around with basic 3D graphic work.<br />I am also working on an EP, which I plan to release within the next few months.<br />Finally, I would like to create a VST before the summer, as well as some other smaller tools. <br /> At the moment, the links below point to relevant sites, and will be updated as the site evolves </p>
                     </div>
                 </div>
             </div>
