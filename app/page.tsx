@@ -27,14 +27,14 @@ export default function Home() {
             <div className={rm.className}>
                 <div>
                     <h1 className={rm.className}><code className="font-mono font-bold">$ whoami</code></h1>
-                    <div >
+                    <div className="mt-5 mb-5">
                         <p className={rm.className}>Online, I go by the name standardrobot. I enjoy making electronic music, programming, and playing video games. <br />Professionally, I&lsquo;m a cyber systems engineer with a strong interest in offensive security.<br />This project came about because I bought this domain to secure the name. I'll be using the opportunity as a trial<br />by fire dive into web-dev.</p>
                     </div>
                 </div>
 
                 <div>
                     <h1 className={rm.className}><code className="font-mono font-bold">$ cat in_dev.txt</code></h1>
-                    <div >
+                    <div className="mt-5 mb-5">
                         <p className={rm.className}>I will be building a more dynamic site, written with the T3 Stack with ThreeJS and Framer-Motion. <br />Employing typesafety and have agency throughout my DX, and I want to mess around with basic 3D graphic work.<br />I am also working on an EP, which I plan to release within the next few months.<br />Finally, I would like to create a VST before the summer, as well as some other smaller tools. <br /> At the moment, the links below point to relevant sites, and will be updated as the site evolves </p>
                     </div>
                 </div>
@@ -94,7 +94,15 @@ export default function Home() {
 
                 <Link className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
                     href="https://blog.standardrobot.dev">
-                    Blog
+                    <h2 className={'mb-3 text-2xl font-semibold'}>
+                        Blog{' '}
+                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                            -&gt;
+                        </span>
+                    </h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                        words
+                    </p>
                 </Link>
             </div>
         </main>
