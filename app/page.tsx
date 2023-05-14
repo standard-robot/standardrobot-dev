@@ -1,7 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { rm } from '@/styles/fonts';
+import { Atkinson_Hyperlegible } from 'next/font/google';
+
+const ah = Atkinson_Hyperlegible({ weight: '400', subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -23,13 +25,13 @@ export default function Home() {
           priority
         />
       </div>
-      <div className={rm.className}>
+      <div className={ah.className}>
         <div>
-          <h1 className={rm.className}>
+          <h1 className={ah.className}>
             <code className="font-mono font-bold">$ whoami</code>
           </h1>
           <div className="mt-5 mb-5">
-            <p className={rm.className}>
+            <p className={ah.className}>
               Online, I go by the name standardrobot. I enjoy making electronic
               music, programming, and playing video games. <br />
               Professionally, I&lsquo;m a cyber systems engineer with a strong
@@ -44,11 +46,11 @@ export default function Home() {
         </div>
 
         <div>
-          <h1 className={rm.className}>
+          <h1 className={ah.className}>
             <code className="font-mono font-bold">$ cat in_dev.txt</code>
           </h1>
           <div className="mt-5 mb-5">
-            <p className={rm.className}>
+            <p className={ah.className}>
               I will be building a more dynamic site, written with the T3 Stack
               with ThreeJS and Framer-Motion. <br />
               Employing typesafety and have agency throughout my DX, and I want
