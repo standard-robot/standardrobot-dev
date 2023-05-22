@@ -19,14 +19,14 @@
   },
   "homepage": "https://github.com/astandardrobot/standardrobot-dev#readme",
   "dependencies": {
-    "@prisma/client": "^4.13.0",
-    "@tanstack/react-query": "^4.29.5",
-    "@trpc/client": "^10.25.0",
-    "@trpc/next": "^10.25.0",
-    "@trpc/react-query": "^10.25.0",
-    "@trpc/server": "^10.25.0",
+    "@prisma/client": "^4.14.1",
+    "@tanstack/react-query": "^4.29.7",
+    "@trpc/client": "^10.26.0",
+    "@trpc/next": "^10.26.0",
+    "@trpc/react-query": "^10.26.0",
+    "@trpc/server": "^10.26.0",
     "framer-motion": "^7.10.3",
-    "next": "^13.4.1",
+    "next": "^13.4.2",
     "next-auth": "^4.22.1",
     "next-plausible": "^3.7.2",
     "react": "^18.2.0",
@@ -37,17 +37,17 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@types/node": "^18.16.5",
+    "@types/node": "^18.16.12",
     "@types/prettier": "^2.7.2",
-    "@types/react": "^18.2.5",
+    "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
-    "prisma": "^4.13.0",
+    "prisma": "^4.14.1",
     "tailwindcss": "^3.3.2",
     "ts-node": "^10.9.1",
-    "types-registry": "^0.1.642",
+    "types-registry": "^0.1.644",
     "typescript": "^4.9.5"
   }
 }

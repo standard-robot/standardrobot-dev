@@ -9,7 +9,7 @@ export const metadata = {
   description: 'i am standardrobot',
   icons: {
     icon: {
-      url: '/test.png',
+      url: '/favicon.ico',
       type: 'image/png',
     },
     shortcut: { url: '/test.png', type: 'image/png' },
