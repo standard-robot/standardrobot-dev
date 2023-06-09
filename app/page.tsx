@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Atkinson_Hyperlegible } from 'next/font/google';
+import { Atkinson_Hyperlegible, Fira_Code, Fira_Mono } from 'next/font/google';
 
 const ah = Atkinson_Hyperlegible({ weight: '400', subsets: ['latin'] });
-
+const fc = Fira_Mono({ weight: '400', subsets: ['latin'] });
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -25,42 +25,39 @@ export default function Home() {
           priority
         />
       </div>
-      <div className={ah.className}>
+      <div className="position: relative; text-align: center; vertical-align: center;">
         <div>
-          <h1 className={ah.className}>
-            <code className="font-mono font-bold">$ whoami</code>
+          <h1 className="text-align: center; {fc.className}">
+            <code className="font-mono; font-bold; position: relative;">
+              $ whoami
+            </code>
           </h1>
           <div className="mt-5 mb-5">
-            <p className={ah.className}>
+            <p className={fc.className}>
               Online, I go by the name standardrobot. I enjoy making electronic
-              music, programming, and playing video games. <br />
-              Professionally, I&lsquo;m a cyber systems engineer with a strong
-              interest in offensive security.
-              <br />
-              This project came about because I bought this domain to secure the
-              name. I'll be using the opportunity as a trial
-              <br />
-              by fire dive into web-dev.
+              music, programming, and playing video games. Professionally,
+              I&lsquo;m a cyber systems engineer with a strong interest in
+              offensive security. This project came about because I bought this
+              domain to secure the name. I'll be using the opportunity as a
+              trial by fire dive into web-dev.
             </p>
           </div>
         </div>
 
         <div>
-          <h1 className={ah.className}>
+          <h1 className={fc.className}>
             <code className="font-mono font-bold">$ cat in_dev.txt</code>
           </h1>
           <div className="mt-5 mb-5">
-            <p className={ah.className}>
+            <p className={fc.className}>
               I will be building a more dynamic site, written with the T3 Stack
-              with ThreeJS and Framer-Motion. <br />
-              Employing typesafety and have agency throughout my DX, and I want
-              to mess around with basic 3D graphic work.
-              <br />I am also working on an EP, which I plan to release within
-              the next few months.
-              <br />
-              Finally, I would like to create a VST before the summer, as well
-              as some other smaller tools. <br /> At the moment, the links below
-              point to relevant sites, and will be updated as the site evolves{' '}
+              with ThreeJS and Framer-Motion. Employing typesafety and have
+              agency throughout my DX, and I want to mess around with basic 3D
+              graphic work. I am also working on an EP, which I plan to release
+              within the next few months. Finally, I would like to create a VST
+              before the summer, as well as some other smaller tools. At the
+              moment, the links below point to relevant sites, and will be
+              updated as the site evolves{' '}
             </p>
           </div>
         </div>
