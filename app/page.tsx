@@ -1,10 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Atkinson_Hyperlegible, Fira_Code, Fira_Mono } from 'next/font/google';
+import { Fira_Mono } from 'next/font/google';
 
-const ah = Atkinson_Hyperlegible({ weight: '400', subsets: ['latin'] });
-const fc = Fira_Mono({ weight: '400', subsets: ['latin'] });
+// const fc = Fira_Mono({ weight: '400', subsets: ['latin'] });
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -15,9 +14,9 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="bg-swamp-green-500">
+      <div>
         <Image
-          className="relative filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);"
+          className="block ml-auto mr-auto justify-between relative filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);"
           src="/robot.svg"
           alt="standardrobot logo"
           width={300}
@@ -25,15 +24,13 @@ export default function Home() {
           priority
         />
       </div>
-      <div className="position: relative; text-align: center; vertical-align: center;">
+      <div className="w-3/6">
         <div>
-          <h1 className="text-align: center; {fc.className}">
-            <code className="font-mono; font-bold; position: relative;">
-              $ whoami
-            </code>
+          <h1 className="text-center font-fira">
+            <code className="font-mono; font-bold">$ whoami</code>
           </h1>
-          <div className="mt-5 mb-5">
-            <p className={fc.className}>
+          <div className="mt-5 mb-5 text-center relative justify-between">
+            <p className="font-fira text-center">
               Online, I go by the name standardrobot. I enjoy making electronic
               music, programming, and playing video games. Professionally,
               I&lsquo;m a cyber systems engineer with a strong interest in
@@ -45,13 +42,13 @@ export default function Home() {
         </div>
 
         <div>
-          <h1 className={fc.className}>
+          <h1 className="text-center {fc.className}">
             <code className="font-mono font-bold">$ cat in_dev.txt</code>
           </h1>
           <div className="mt-5 mb-5">
-            <p className={fc.className}>
+            <p className="font-fira text-center">
               I will be building a more dynamic site, written with the T3 Stack
-              with ThreeJS and Framer-Motion. Employing typesafety and have
+              with ThreeJS and Framer-Motion. Employing typesafety and having
               agency throughout my DX, and I want to mess around with basic 3D
               graphic work. I am also working on an EP, which I plan to release
               within the next few months. Finally, I would like to create a VST
