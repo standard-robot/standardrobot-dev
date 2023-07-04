@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'standardrobot',
-  description: 'i am standardrobot',
+  title: '_standardrobot',
+  description: '_portfolio site',
   icons: {
     icon: {
       url: '/favicon.ico',
