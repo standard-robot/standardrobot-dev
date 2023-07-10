@@ -34,10 +34,10 @@ export default function Home() {
             <p className="font-fira text-center text-lg">
               Online, I go by the name standardrobot. I enjoy making electronic
               music, programming, and playing video games. Professionally,
-              I&lsquo;m a cyber systems engineer with a strong interest in
-              offensive security. This project came about because I bought this
-              domain to secure the name. I'll be using the opportunity as a
-              trial by fire dive into web-dev_
+              I&lsquo;m a systems engineer with a strong interest in offensive
+              security. This project came about because I bought this domain to
+              secure the name. I'll be using the opportunity as a trial by fire
+              dive into web-dev_
             </p>
           </div>
         </div>
@@ -51,13 +51,11 @@ export default function Home() {
           <div className="mt-5 mb-5">
             <p className="font-fira text-center text-lg">
               _I will be building a more dynamic site, written with the T3 Stack
-              with ThreeJS and Framer-Motion. Employing typesafety and having
-              agency throughout my DX, and I want to mess around with basic 3D
-              graphic work. I am also working on an EP, which I plan to release
-              within the next few months. Finally, I would like to create a VST
-              before the summer, as well as some other smaller tools. At the
-              moment, the links below point to relevant sites, and will be
-              updated as the site evolves_
+              with ThreeJS and Framer-Motion. I am also working on an EP, which
+              I plan to release within the next few months. Finally, I would
+              like to create a VST before the summer, as well as some other
+              smaller tools. At the moment, the links below point to relevant
+              sites, and will be updated as the site evolves_
             </p>
           </div>
         </div>
