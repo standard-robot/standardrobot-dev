@@ -19,19 +19,19 @@
   },
   "homepage": "https://github.com/astandardrobot/standardrobot-dev#readme",
   "dependencies": {
-    "@tanstack/react-query": "^4.29.23",
-    "@trpc/client": "^10.34.0",
-    "@trpc/next": "^10.34.0",
-    "@trpc/react-query": "^10.34.0",
-    "@trpc/server": "^10.34.0",
+    "@tanstack/react-query": "^4.29.25",
+    "@trpc/client": "^10.35.0",
+    "@trpc/next": "^10.35.0",
+    "@trpc/react-query": "^10.35.0",
+    "@trpc/server": "^10.35.0",
     "framer-motion": "^7.10.3",
-    "next": "^13.4.10",
-    "next-auth": "^4.22.1",
-    "next-plausible": "^3.9.1",
+    "next": "^13.4.11",
+    "next-auth": "^4.22.3",
+    "next-plausible": "^3.10.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
-    "superjson": "^1.12.4",
+    "superjson": "^1.13.1",
     "three": "^0.147.0",
     "zod": "^3.21.4"
   },
@@ -45,7 +45,7 @@
     "prettier": "^2.8.8",
     "tailwindcss": "^3.3.3",
     "ts-node": "^10.9.1",
-    "types-registry": "^0.1.651",
+    "types-registry": "^0.1.652",
     "typescript": "^4.9.5"
   }
 }
