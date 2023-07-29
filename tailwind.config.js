@@ -12,15 +12,16 @@ module.exports = {
       fira: ['Fira Code', ...defaultTheme.fontFamily.sans],
     },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       fontFamily: {
         firacode: ['Fira_Code', 'sans-serif'],
       },
+      theme: {
+        screen: {
+          'custom-sm': { max: '828px' },
+        },
+      },
     },
   },
+
   plugins: [],
 };
