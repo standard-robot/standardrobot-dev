@@ -1,11 +1,12 @@
 import './globals.css';
 import React from 'react';
 import { Inter } from 'next/font/google';
+import BlinkingCursor from '../components/typed';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'standardrobot_',
+  title: 'standardrobot',
   description: 'portfolio site_',
   icons: {
     icon: {

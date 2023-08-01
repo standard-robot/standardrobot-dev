@@ -15,10 +15,8 @@ module.exports = {
       fontFamily: {
         firacode: ['Fira_Code', 'sans-serif'],
       },
-      theme: {
-        screen: {
-          'custom-sm': { max: '828px' },
-        },
+      screen: {
+        'custom-sm': { max: '828px' },
       },
     },
   },
