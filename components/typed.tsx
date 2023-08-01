@@ -1,12 +1,18 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 
-export const Typewriter = ({ text, delay, infinite }) => {
+interface TWProps {
+  text: string;
+  delay: number;
+  infinite: boolean;
+}
+
+export const Typewriter: React.FC<TWProps> = ({ text, delay, infinite }) => {
   const [currentText, setCurrentText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    let timeout;
+    let timeout: NodeJS.Timeout;
 
     if (currentIndex <= text.length) {
       timeout = setTimeout(() => {
