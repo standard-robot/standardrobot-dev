@@ -37,3 +37,22 @@ body {
 .blinking-cursor {
   animation: blink 1s step-end infinite;
 }
+
+@keyframes glitch {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  20%,
+  80% {
+    transform: translate(-5px, 5px);
+  }
+  40%,
+  60% {
+    transform: translate(5px, -5px);
+  }
+}
+
+.animate-glitch {
+  animation: glitch 0.1s infinite;
+}

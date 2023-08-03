@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <div className="mb-32  grid custom-sm:text-center w-full phone:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 lg:text-center">
+    <div className="mb-32 grid custom-sm:text-center w-full phone:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 lg:text-center">
       <Link
         className="group rounded-lg border px-5 py-4 border-transparent transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         href="https://instagram.com/@standardrobot.wav"
@@ -14,7 +14,7 @@ export default function Navbar() {
             -&gt;
           </span>
         </h2>
-        <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>pics</p>
+        <p className={`m-0 text-center text-sm opacity-50`}>pics</p>
       </Link>
 
       <Link
@@ -27,7 +27,7 @@ export default function Navbar() {
             -&gt;
           </span>
         </h2>
-        <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>posts </p>
+        <p className={`m-0 text-center text-sm opacity-50`}>posts </p>
       </Link>
 
       <Link
@@ -40,7 +40,7 @@ export default function Navbar() {
             -&gt;
           </span>
         </h2>
-        <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>music</p>
+        <p className={`m-0 text-center text-sm opacity-50`}>music</p>
       </Link>
 
       <Link
@@ -53,7 +53,7 @@ export default function Navbar() {
             -&gt;
           </span>
         </h2>
-        <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>src code</p>
+        <p className={`m-0 text-center text-sm opacity-50`}>src code</p>
       </Link>
 
       <Link
@@ -66,7 +66,7 @@ export default function Navbar() {
             -&gt;
           </span>
         </h2>
-        <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>words</p>
+        <p className={`m-0 text-center text-sm opacity-50`}>words</p>
       </Link>
     </div>
   );

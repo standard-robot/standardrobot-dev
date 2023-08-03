@@ -1,22 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 import Navbar from '../components/navbar';
-import BlinkingCursor, { Typewriter } from '@/components/typed';
+import BlinkingCursor, { Test } from '..//components/typed';
 
 export default function Home() {
   return (
     <body>
       <div className="flex min-h-screen custom-sm:color-blue min-w-screen flex-col items-center p-10">
         <Navbar />
-        <div className="left-0 max-w-3/6">
-          <p className="flex left-0 top-0 w-full justify-left border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-            &nbsp;
-            <code className="font-mono font-bold">
-              <Typewriter text="standardrobot" delay={500} infinite />
-            </code>
-          </p>
-        </div>
-
+        <Test />
         <div>
           <Image
             className="block ml-auto mr-auto justify-between relative filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);"
