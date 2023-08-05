@@ -8,6 +8,10 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      bsod: '#000A5F',
+      border: '#AAAAAA',
+    },
     fontFamily: {
       fira: ['Fira Code', ...defaultTheme.fontFamily.sans],
     },

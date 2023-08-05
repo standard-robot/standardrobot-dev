@@ -5,7 +5,7 @@ import BlinkingCursor, { Test } from '..//components/typed';
 
 export default function Home() {
   return (
-    <body>
+    <body id="main-body">
       <div className="flex min-h-screen custom-sm:color-blue min-w-screen flex-col items-center p-10">
         <Navbar />
         <Test />

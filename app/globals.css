@@ -15,7 +15,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-body {
+#main-body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to top, transparent, #a0b2bb) #695a88;
 }
@@ -53,6 +53,9 @@ body {
   }
 }
 
-.animate-glitch {
-  animation: glitch 0.1s infinite;
+.rectangleBorder {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
