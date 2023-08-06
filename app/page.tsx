@@ -11,7 +11,6 @@ export default function Home() {
         <Test />
         <div>
           <Image
-            className="block ml-auto mr-auto justify-between relative filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);"
             src="/robot.svg"
             alt="standardrobot logo"
             width={300}
@@ -20,7 +19,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="lg:w-3/6">
+        <div className="w-3/6">
           <div>
             <h1 className="text-center font-fira">
               <code className="font-mono font-bold text-lg">$ whoami</code>
