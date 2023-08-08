@@ -5,16 +5,18 @@ interface TWProps {
   text: string;
   delay: number;
   loop?: boolean;
+  font?: string;
 }
 
 export const Typewriter: React.FC<TWProps> = ({
   text,
   delay,
   loop = false,
+  font = 'firacode',
 }) => {
   const [currText, setCurrText] = useState('');
   const [currIndex, setCurrIndex] = useState(0);
-
+  const style = `text-white font-${font}`;
   useEffect(() => {
     let timeout: NodeJS.Timeout | undefined;
     let n = text.length;
@@ -37,10 +39,10 @@ export const Typewriter: React.FC<TWProps> = ({
     };
   }, [currIndex, delay, loop, text]);
 
-  return <span>{currText}</span>;
+  return <span className={style}>{currText}</span>;
 };
 
-export function Test() {
+export function WhoAmI() {
   return (
     <div className=" max-w-3/6">
       <p className=" text-center left-0 top-0 w-full border-red-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit flex  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">

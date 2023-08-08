@@ -1,14 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 import Navbar from '../components/navbar';
-import BlinkingCursor, { Test } from '..//components/typed';
+import BlinkingCursor, { WhoAmI, Typewriter } from '..//components/typed';
 
 export default function Home() {
   return (
     <body id="main-body">
       <div className="flex min-h-screen custom-sm:color-blue min-w-screen flex-col items-center p-10">
         <Navbar />
-        <Test />
+        <WhoAmI />
         <div>
           <Image
             src="/robot.svg"
@@ -28,7 +28,7 @@ export default function Home() {
               <p className="font-fira text-center lg:text-lg">
                 I'm standardrobot. I enjoy making electronic music and
                 programming. Professionally, I&lsquo;m a systems engineer, but I
-                have a strong interest in offensive security and software
+                have a strong interest in cybersecurity and software
                 development. This project came about because I bought this
                 domain to secure the name. I'll be using the opportunity as a
                 trial by fire dive into web-dev

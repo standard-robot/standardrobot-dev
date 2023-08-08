@@ -52,6 +52,22 @@
     transform: translate(5px, -5px);
   }
 }
+@keyframes glitch2 {
+  0%,
+  100% {
+    clippath: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  ,
+  20%,
+  60% {
+    clippath: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  ,
+  40%,
+  80% {
+    clippath: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
+  }
+}
 
 .rectangleBorder {
   position: fixed;

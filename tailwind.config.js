@@ -12,12 +12,17 @@ module.exports = {
       fira: ['Fira Code', ...defaultTheme.fontFamily.sans],
     },
     extend: {
+      animation: {
+        glitch: 'glitch 2s infinite',
+      },
       colors: {
         bsod: '#000A5F',
         border: '#AAAAAA',
       },
       fontFamily: {
         firacode: ['Fira_Code', 'sans-serif'],
+        lucida: ['Lucida_Console'],
+        w95fa: ['w95fa', 'sans-serif'],
       },
       screen: {
         'custom-sm': { max: '828px' },
