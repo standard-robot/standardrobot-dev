@@ -8,9 +8,6 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    fontFamily: {
-      fira: ['Fira Code', ...defaultTheme.fontFamily.sans],
-    },
     extend: {
       animation: {
         glitch: 'glitch 2s infinite',
@@ -24,11 +21,9 @@ module.exports = {
         lucida: ['Lucida_Console'],
         w95fa: ['w95fa', 'sans-serif'],
       },
-      screen: {
-        'custom-sm': { max: '828px' },
-      },
     },
   },
 
+  variants: [],
   plugins: [],
 };

@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import Navbar from '../components/navbar';
-import BlinkingCursor, { WhoAmI, Typewriter } from '..//components/typed';
+import BlinkingCursor, { WhoAmI } from '..//components/typed';
 
 export default function Home() {
   return (
     <body id="main-body">
-      <div className="flex min-h-screen custom-sm:color-blue min-w-screen flex-col items-center p-10">
+      <div className="flex min-h-screen  flex-col items-center p-10">
         <Navbar />
         <WhoAmI />
         <div>
@@ -19,13 +19,13 @@ export default function Home() {
           />
         </div>
 
-        <div className="w-3/6">
+        <div className="md:w-3/6">
           <div>
             <h1 className="text-center font-fira">
               <code className="font-mono font-bold text-lg">$ whoami</code>
             </h1>
             <div className="mt-5 mb-5 text-center relative lg:justify-between">
-              <p className="font-fira text-center lg:text-lg">
+              <p className="max-md:h-1/2 font-fira text-center lg:text-lg">
                 I'm standardrobot. I enjoy making electronic music and
                 programming. Professionally, I&lsquo;m a systems engineer, but I
                 have a strong interest in cybersecurity and software
