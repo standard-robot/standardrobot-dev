@@ -11,7 +11,7 @@ interface TWProps {
 const NewLink: React.FC<TWProps> = ({ title, link, content }) => {
   return (
     <Link
-      className="group rounded-lg border transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+      className="group rounded-lg border-transparent transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
       href={link}
     >
       <h2 className={` max-md:text-xs  lg:text-2xl font-semibold`}>
