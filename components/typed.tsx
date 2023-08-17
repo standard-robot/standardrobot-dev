@@ -44,7 +44,7 @@ export const Typewriter: React.FC<TWProps> = ({
 
 export function WhoAmI() {
   return (
-    <div className=" max-w-3/6">
+    <div className="max-md:m-0 m-auto max-w-3/6">
       <p className=" text-center left-0 top-0 w-full border-red-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit flex  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
         &nbsp;
         <code className="font-mono w-36 font-bold">
