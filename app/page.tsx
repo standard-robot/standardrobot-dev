@@ -6,7 +6,7 @@ import BlinkingCursor, { WhoAmI } from '..//components/typed';
 export default function Home() {
   return (
     <body id="main-body">
-      <div className="flex min-h-screen  flex-col items-center p-10">
+      <div className="flex min-h-screen flex-col items-center p-10">
         <Navbar />
         <WhoAmI />
         <div>
@@ -19,7 +19,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="md:w-3/6">
+        <div className="m-auto md:w-3/6">
           <div>
             <h1 className="text-center font-fira">
               <code className="font-mono font-bold text-lg">$ whoami</code>
