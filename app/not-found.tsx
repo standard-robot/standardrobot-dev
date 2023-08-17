@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 function getHexaNumb() {
   return Math.floor(Math.random() * 0xffffff)
